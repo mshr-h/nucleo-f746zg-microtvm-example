@@ -33,6 +33,8 @@ Pre-generated ONNX model already in the repo.
 It contains `ADD` ONNX operater which adds 2 float typed data and output float type data.
 You can check the model architecture by using [Netron](https://github.com/lutzroeder/netron).
 
+![](docs/netron-add-onnx.png)
+
 If you want to generate yourself, follow the instruction below.
 
 Install python package to manipulate onnx format.
