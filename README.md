@@ -1,4 +1,6 @@
-# nucleo-f746zg-microtvm-example
+# microTVM example for NUCLEO-F746ZG board
+
+This repo is an simple example for running ONNX model on microTVM targetting NUCLEO-F746ZG board.
 
 ## Compatibility
 
