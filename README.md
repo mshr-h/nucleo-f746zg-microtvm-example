@@ -69,6 +69,12 @@ $ source ~/zephyrproject/zephyr/zephyr-env.sh
 
 Connect the NUCLEO-F746ZG to the PC.
 
+Change the following line in `run_onnx_on_microtvm.py` to the TVM's root directory.
+
+```python
+repo_root = "/home/ubuntu/workspace/tvm"
+```
+
 Run `run_onnx_on_microtvm.py`.
 You'll get the following output.
 
