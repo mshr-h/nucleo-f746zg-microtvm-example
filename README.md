@@ -157,7 +157,7 @@ to
 ```python
 sys.path.insert(0, os.path.join(zephyr_base, "scripts", "dts", "python-devicetree", "src"))
 try:
-    import dtlib  # pylint: disable=import-outside-toplevel
+    from devicetree import dtlib  # pylint: disable=import-outside-toplevel
 ```
 
 ## Run ONNX model on standalone microTVM runtime
