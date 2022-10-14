@@ -9,7 +9,7 @@ Belows are my environment.
 - Ubuntu 20.04 on VMware Player 16
   - Host OS: Windows 10
 - Python 3.9.5 installed by pyenv
-- Zepher 2.5.99
+- Zephyr 2.5.99
 - [TVM@c0690496](https://github.com/apache/tvm/tree/c0690496afeab214f46d7b6763a804cf0bf1964e)
 
 ## Install Zepher
