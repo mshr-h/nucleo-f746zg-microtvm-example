@@ -4,17 +4,19 @@ This repo is an simple example for running ONNX model on microTVM targetting NUC
 
 ## Compatibility
 
-Belows are my environment.
+Belows are my testing environment.
 
-- Ubuntu 20.04 on VMware Player 16
+- Ubuntu 22.04 on VirtualBox 7.0
   - Host OS: Windows 10
-- Python 3.9.5 installed by pyenv
-- Zephyr 2.5.99
-- [TVM@c0690496](https://github.com/apache/tvm/tree/c0690496afeab214f46d7b6763a804cf0bf1964e)
+- Python 3.10.6
+- Zephyr 2.7
+- [TVM@b389d4da](https://github.com/apache/tvm/tree/b389d4dac45bb1fd502940d87126d0a89e15188e)
 
 ## Install Zepher
 
 Follow the instruction [here](https://docs.zephyrproject.org/latest/getting_started/index.html).
+Note that TVM currently support Zephyr 2.7 so you have to run `west init --mr "v2.7-branch"` instead of `west init`.
+You can download the SDK from [Release Zephyr SDK 0.13.2 · zephyrproject-rtos/sdk-ng](https://github.com/zephyrproject-rtos/sdk-ng/releases/tag/v0.13.2).
 
 ## Install TVM
 
